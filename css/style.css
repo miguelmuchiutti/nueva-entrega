@@ -1,0 +1,343 @@
+body {
+  background-image: url(../img/pasto.jpg);
+}
+
+/* INDEX*/
+* {
+  padding: 10;
+  margin: 10;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* MOBILE*/
+@media screen and (max-width: 420px) {
+  .titulo {
+    display: block;
+    margin-left: 6px;
+  }
+  .varias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion {
+    display: block;
+    margin-left: 40px;
+  }
+}
+.titulo {
+  background-color: rgb(33, 168, 33);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+/* REMERAS*/
+.titulo-2 {
+  background-color: rgb(33, 168, 33);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 97%;
+}
+
+/* BOTINES*/
+.titulo-3 {
+  background-color: rgb(33, 168, 33);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 97%;
+}
+
+/* MEDIAS*/
+.titulo-4 {
+  background-color: rgb(33, 168, 33);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 4rem;
+  margin: 10px;
+  position: fixed;
+  top: 0;
+  width: 99%;
+}
+
+/* CARRITO*/
+.titulo-5 {
+  background-color: rgb(33, 168, 33);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+}
+
+/* INDEX */
+a, li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar li {
+  margin-right: 1.5rem;
+}
+
+.navbar a:hover {
+  color: rgb(71, 193, 241);
+}
+
+.navbar li {
+  background-color: rgb(71, 193, 241);
+  border: 2px solid rgb(71, 193, 241);
+  padding: 0.25rem 0.75rem;
+}
+
+.navbar li:hover {
+  background: transparent;
+  border: 2px solid rgb(71, 193, 241);
+}
+
+/* REMERAS */
+a, li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-2 ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-2 li {
+  margin-right: 1.5rem;
+}
+
+.navbar-2 a:hover {
+  color: rgb(71, 193, 241);
+}
+
+.navbar-2 li {
+  background-color: rgb(71, 193, 241);
+  border: 2px solid rgb(71, 193, 241);
+  padding: 0.25rem 0.75rem;
+}
+
+.navbar-2 li:hover {
+  background: transparent;
+  border: 2px solid rgb(71, 193, 241);
+}
+
+/* BOTINES */
+a, li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-3 ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-3 li {
+  margin-right: 1.5rem;
+}
+
+.navbar-3 a:hover {
+  color: rgb(71, 193, 241);
+}
+
+.navbar-3 li {
+  background-color: rgb(71, 193, 241);
+  border: 2px solid rgb(71, 193, 241);
+  padding: 0.25rem 0.75rem;
+}
+
+.navbar-3 li:hover {
+  background: transparent;
+  border: 2px solid rgb(71, 193, 241);
+}
+
+/* MEDIAS */
+a, li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-4 ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-4 li {
+  margin-right: 1.5rem;
+}
+
+.navbar-4 a:hover {
+  color: rgb(71, 193, 241);
+}
+
+.navbar-4 li {
+  background-color: rgb(71, 193, 241);
+  border: 2px solid black;
+  padding: 0.15rem 0.45rem;
+}
+
+.navbar-4 li:hover {
+  background: transparent;
+  border: 2px solid rgb(71, 193, 241);
+}
+
+/* CARRITO */
+a, li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-5 ul {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-5 li {
+  margin-right: 1.5rem;
+}
+
+.navbar-5 a:hover {
+  color: rgb(71, 193, 241);
+}
+
+.navbar-5 li {
+  background-color: rgb(71, 193, 241);
+  border: 2px solid rgb(71, 193, 241);
+  padding: 0.25rem 0.75rem;
+}
+
+.navbar-5 li:hover {
+  background: transparent;
+  border: 2px solid rgb(71, 193, 241);
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  border: solid;
+  color: black;
+}
+
+p {
+  text-indent: 10%;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+}
+
+.grid-img {
+  width: 100%;
+}
+
+button {
+  margin-right: 1.5rem;
+  padding: 0.4rem 2rem;
+  background-color: rgb(15, 147, 235);
+  color: black;
+}
+
+.carta {
+  margin-left: 20%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+.card-text {
+  color: black;
+}
+
+.varias {
+  border-color: black;
+  margin-top: 6%;
+  margin-left: 3%;
+}
+
+.div {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.seccion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 40px;
+  margin-left: 6%;
+}
+
+.seccion-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-color: black;
+  margin-top: 6%;
+}
+
+.seccion-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-color: black;
+  margin-top: 6%;
+}
+
+.seccion-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-color: black;
+  margin-top: 6%;
+}
+
+.seccion-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-color: black;
+  margin-top: 2%;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* MOBILE*/
+@media screen and (max-width: 420px) {
+  .seccion-4 {
+    display: block;
+    margin-top: 20%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

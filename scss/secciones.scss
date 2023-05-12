@@ -1,0 +1,45 @@
+.div {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  .seccion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 40px;
+    margin-left: 6%;
+  }
+
+  .seccion-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-color: black;
+    margin-top: 6%;
+  }
+
+  .seccion-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-color: black;
+    margin-top: 6%;
+  }
+
+  .seccion-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-color: black;
+    margin-top: 6%;
+  }
+
+  .seccion-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    border-color: black;
+    margin-top: 2%;
+   }
