@@ -9,34 +9,9 @@ body {
     list-style: none;
   }
 
-    /* MOBILE*/
-@media screen and (max-width: 420px) {
-  .titulo {
-    display: block;
-    margin-left: 6px;
-  }
-
-  .varias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .seccion {
-   display: block;
-   margin-left: 40px;
-  }
-}
-  
-@import "header";
-@import "navbar";
-@import "propiedades";
-@import "secciones";
-@import "footer";
-  
-   /* MOBILE*/
-@media screen and (max-width: 420px) {
-  .seccion-4 {
-    display: block;
-    margin-top: 20%;
-  }
-}
+@import "../scss/base/header";
+@import "../scss/base/navbar";
+@import "../scss/componts/propiedades";
+@import "../scss/componts/secciones";
+@import "../scss/base/footer";
+@import "../scss/componts/responsive"
