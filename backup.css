@@ -1,8 +1,8 @@
-body {
+/*body {
     background-image: url(img/pasto.jpg);
   }
 /* INDEX*/
-  * {
+/*  * {
     padding: 10;
     margin: 10;
     text-decoration: none;
@@ -80,7 +80,7 @@ body {
   }
 
     /* MOBILE*/
-@media screen and (max-width: 420px) {
+/*@media screen and (max-width: 420px) {
   .titulo {
     margin-left: 6px;
   }
@@ -164,7 +164,7 @@ body {
   }
 
   /* BOTINES*/
-  .titulo-3 {
+  /*.titulo-3 {
     background-color: rgb(33, 168, 33);
     display: flex;
     justify-content: space-between;
@@ -213,7 +213,7 @@ body {
 
   
   /* MEDIAS*/
-  .titulo-4 {
+  /*.titulo-4 {
     background-color: rgb(33, 168, 33);
     display: flex;
     justify-content: space-between;
@@ -268,7 +268,7 @@ body {
   }
 
    /* MOBILE*/
-@media screen and (max-width: 420px) {
+/*@media screen and (max-width: 420px) {
   .seccion-4 {
     display: block;
     margin-top: 20%;
@@ -280,7 +280,7 @@ body {
 
   
   /* CARRITO*/
-  .titulo-5 {
+  /*.titulo-5 {
     background-color: rgb(33, 168, 33);
     display: flex;
     justify-content: space-between;
@@ -322,4 +322,4 @@ body {
     grid-template-rows: repeat(1, 1fr);
     border-color: black;
     margin-top: 2%;
-   }
+   } 
